@@ -1,0 +1,152 @@
+@font-face {
+    font-family: myFont;
+    src: url(./Assest/Poppins-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #868F96, #596164);
+    padding: 10px;
+}
+body > h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    color: #fff;
+    background: linear-gradient(to bottom, #868F96, #596164);
+    margin: 50px auto 20px;
+    padding: 40px 30px 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    animation: fadeIn 0.6s ease-out;
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(1px) saturate(180%);
+    border-radius: 12px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.first{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.for-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    transition: all 0.5s;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+    margin-top: 50px;
+    
+}
+.for-input label {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    padding: 0 5px;
+    pointer-events: none;
+    transition: .5s;
+    user-select: none;
+    background: linear-gradient(to right, #636B6F, #6E767B);
+    font-size: 12px;
+    color: #fff;
+    border: 1.2px solid #edeef0;
+}
+.for-input input {
+    height: 40px;
+    font-size: 16px;
+    padding: 30px;
+    flex: 1;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    user-select: none;
+    background: #edeef0;
+    color: #5c6163;
+    transition: all 0.3s;
+    border: none;
+}
+
+/* input => Button */
+button{
+    border: 3px solid transparent;
+    outline: none;
+    background: transparent;
+    padding-top: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+button:hover{
+    border: 3px solid #fff;
+}
+
+/* Design by Code Artist */
+.little-Intro{
+    color: #ffff;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.little-Intro a{
+    text-decoration: none;
+    color: #edeef0;
+    border: 1px solid #edeef0;
+    border-radius: 20px;
+    padding: 3px 7px;
+    transition: all 0.5s;
+}
+.little-Intro a:hover{
+    border: 1px solid #edeef0;
+    background: #424446;
+}
+
+.password-range{
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 65px;
+}
+.password-range input {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    outline: none;
+    border-radius: 30px;
+    user-select: none;
+    background: #edeef0;
+    color: #5c6163;
+    transition: all 0.3s;
+    border: none;
+}
