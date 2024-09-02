@@ -1,5 +1,6 @@
 function generatePassword(){
-    var characterAll = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890@/";
+    var characterAll = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890@/~!@#$%^&*()_+=-\][;',./?><:{}|";
+    // var characterAll = "1234567890";
     var forRange = document.getElementById('range').value;
     var passwordShow = '';
 

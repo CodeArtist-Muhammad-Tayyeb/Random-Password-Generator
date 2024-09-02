@@ -150,3 +150,59 @@ button:hover{
     transition: all 0.3s;
     border: none;
 }
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .for-input {
+        margin-top: 20px;
+    }
+
+    .for-input input {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .password-range {
+        width: 100%;
+    }
+
+    .password-range input {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .for-input input {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .password-range input {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    button {
+        padding: 8px 12px;
+    }
+
+    .little-Intro {
+        font-size: 14px;
+    }
+
+    .little-Intro a {
+        padding: 2px 5px;
+    }
+}
+
+
